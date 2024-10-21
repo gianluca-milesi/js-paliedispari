@@ -9,7 +9,7 @@ function isPalindrome(word) {
     return word === reversedWord;
 }
 
-if (isPalindrome(userWord) === true) {
+if (isPalindrome(userWord.toLocaleLowerCase()) === true) {
     console.log("La parola è palindroma");
 } else {
     console.log("La parola non è palindroma");
