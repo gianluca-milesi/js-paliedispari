@@ -17,7 +17,7 @@ console.log(`Il Computer ha tirato: ${computerNum}`);
 let sum = computerNum + userNum;
 console.log(sum);
 
-if (userChoice === "pari" && isEven(sum)) {
+if (userChoice === "pari" && isEven(sum) || userChoice === "dispari" && !isEven(sum)) {
     console.log("Hai vinto");
 } else {
     console.log("Ha vinto il Computer");
